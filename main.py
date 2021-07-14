@@ -18,6 +18,11 @@ def times(number):
     return render_template('times_table.html', number=number)
 
 
+@app.route('/my_picture')
+def pic():
+    return render_template('picture.html')
+
+
 if __name__ == '__main__':
     app.debug = True
     app.run()
