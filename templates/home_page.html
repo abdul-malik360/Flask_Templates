@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Templates</title>
+</head>
+<body style="background:#ff8000;">
+
+<h1>Hi {{name}}! How are you finding Flask?</h1>
+{% if name == 'Abdul-Malik'%}
+<p> You're Are an Admin</p>
+{% else %}
+<p> You are a normal User</p>
+{% endif %}
+</body>
+</html>
